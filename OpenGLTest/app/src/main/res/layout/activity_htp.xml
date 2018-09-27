@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gsgsgs">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="HOW TO PLAY"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#689a92"
+        android:textStyle="bold|italic"
+        android:textSize="35dp"
+        android:focusableInTouchMode="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:id="@+id/textView4"
+        android:minWidth="200dp"
+        android:minHeight="275dp"
+        android:textSize="23sp"
+        android:textColor="#689a92"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColorHighlight="#ff0000"
+        android:layout_gravity="center_horizontal"
+        android:text="You control the player by tilting your device.\n\nSwipe right, left, up or down to use your abilities.\n\nRight: Multi Arrow\nLeft: Arrow Storm\nUp: Heal\nDown:Master Arrow\nThe green bar above the player is your health.\nThe red bar is the cooldown of your abilities.\n\nGOOD LUCK!"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="50dp" />
+
+</LinearLayout>

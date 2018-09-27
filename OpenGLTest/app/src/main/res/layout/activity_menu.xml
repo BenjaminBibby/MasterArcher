@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.gravn.opengltest.MenuActivity"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="MASTER ARCHER"
+        android:id="@+id/textView2"
+        android:textColor="#689a92"
+        android:textStyle="bold|italic"
+        android:textSize="35dp"
+        android:focusableInTouchMode="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_weight="0.1"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:hint="Enter your name here"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameTxt"
+        android:layout_marginBottom="69dp"
+        android:minWidth="150dp"
+        android:maxWidth="180dp"
+        android:maxLines="1"
+        android:layout_above="@+id/PlayBtn"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        android:theme="@android:style/Theme.DeviceDefault"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAY"
+        android:id="@+id/PlayBtn"
+        android:onClick="OnClickBtn"
+        android:background="@drawable/button_xml"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="82dp"
+        android:layout_above="@+id/HsBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to play"
+        android:id="@+id/button"
+        android:onClick="OnClickBtn"
+        android:background="@drawable/button_xml"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="17.5dp"
+        android:layout_above="@+id/HsBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HIGHSCORE"
+        android:onClick="OnClickBtn"
+        android:id="@+id/HsBtn"
+        android:layout_marginBottom="84dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/background_light"
+        android:background="@drawable/button_xml"
+        android:textStyle="bold|italic"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal" />
+
+</RelativeLayout>
